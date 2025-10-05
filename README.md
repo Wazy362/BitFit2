@@ -1,35 +1,33 @@
-# Android Project 5 - *BitFit1*
+# Android Project 6 - *BitFit2*
 
 Submitted by: **Abdelrahman**
 
-**BitFit1** is a health metrics app that allows users to track their meals and calories all in one app
+**BitFit2** is a health metrics app that allows users to track consumed calories and also allows them to clear the data of their health metrics.
 
-Time spent: **4** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] **At least one health metric is tracked (based on user input)**
-  - Chosen metric(s): `[TODO: Calories]`
-- [X] **There is a "create entry" UI that prompts users to make their daily entry**
-- [X] **New entries are saved in a database and then updated in the RecyclerView**
-- [X] **On application restart, previously entered entries are preserved (i.e., are *persistent*)**
- 
+- [X] **Use at least 2 Fragments**
+- [X] **Create a new dashboard fragment where users can see a summary of their entered data**
+- [X] **Use one of the Navigation UI Views (BottomNavigation, Drawer Layout, Top Bar) to move between the fragments**
+
 The following **optional** features are implemented:
 
 
 The following **additional** features are implemented:
-
+- Changed the color layout of the app to black and white
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/Wazy362/BitFit1/blob/master/Bitfit1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='BitFit2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ScreenToGif 
+GIF created with ScreenToGif  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -41,7 +39,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [2025] [name of copyright owner]
+    Copyright [yyyy] [name of copyright owner]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
