@@ -13,4 +13,8 @@ interface NutritionEntryDao {
 
     @Insert
     suspend fun insert(entry: NutritionEntryEntity)
+
+    @Query("DELETE FROM nutrition_entry_table")
+    suspend fun deleteAll()
 }
+
